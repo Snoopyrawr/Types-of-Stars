@@ -1,14 +1,13 @@
-import React from "react";
-import brownDwarf from "../assets/brown_dwarf-1.webp";
-import mainSequence from "../assets/Main_Sequence-1.webp";
-import neutronStars from "../assets/Neutron_Stars-1.webp";
-import redDwarf from "../assets/red_dwarf-1.webp";
-import whiteDwarf from "../assets/White_Dwarf-1.webp";
+import brownDwarf from "../assets/brown_dwarf-1.webp"
+import mainSequence from "../assets/Main_Sequence-1.webp"
+import neutronStars from "../assets/Neutron_Stars-1.webp"
+import redDwarf from "../assets/red_dwarf-1.webp"
+import whiteDwarf from "../assets/White_Dwarf-1.webp"
 
-interface Post {
-    title: string;
-    img: string;
-    content: string;
+type Post = {
+    title: string
+    img: string
+    content: string
 }
 
 const posts: Post[] = [
@@ -37,9 +36,9 @@ const posts: Post[] = [
         img: whiteDwarf,
         content: "Red dwarfs are the smallest main sequence stars – just a fraction of the Sun’s size and mass. They’re also the coolest, and appear more orange in color than red."
     }
-];
+]
 
-const CardComponent: React.FC = () => {
+const CardComponent = () => {
     return (
         <>
             <div className="grid gap-y-10 2xl:grid-cols-3 xl:grid-cols-2 justify-items-center mx-20">
@@ -67,7 +66,7 @@ const CardComponent: React.FC = () => {
                 ))}
             </div>
         </>
-    );
+    )
 }
 
-export default CardComponent;
+export default CardComponent
