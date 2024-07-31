@@ -1,1 +1,1 @@
-Visit: https://snoopyrawr.github.io/Types-of-Stars/
+Visit: <a target="blank">https://snoopyrawr.github.io/Types-of-Stars/<a/>
