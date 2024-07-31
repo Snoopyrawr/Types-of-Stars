@@ -1,15 +1,15 @@
 
 import Footer from "./components/Footer"
 import Header from "./components/Header"
-import Post from "./components/Posts";
+import Post from "./components/Posts"
 
-function App() {
+const App = () => {
 
   return (
     <>
-    <Header />
-    <Post />
-    <Footer />
+      <Header />
+      <Post />
+      <Footer />
     </>
   )
 }
