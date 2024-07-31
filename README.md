@@ -1,4 +1,1 @@
-https://snoopyrawr.github.io/Types-of-Stars/
-
-# star-types
- 
+Visit: https://snoopyrawr.github.io/Types-of-Stars/
